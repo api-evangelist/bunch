@@ -1,21 +1,50 @@
 aid: bunch
 name: Bunch
-description: Bunch is a company surfaced as a portfolio company of 500-global, northzone and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Bunch is a Berlin-based financial technology company building AI-native
+  infrastructure for private markets. Its all-in-one platform combines secure data
+  infrastructure, AI-powered workflows, and expert fund services so venture capital
+  and private equity funds and investors can seamlessly transact, close, and securely
+  operate — spanning fund administration, SPV and vehicle setup, investor onboarding
+  and KYC, capital calls, and reporting. Bunch was surfaced as a portfolio company
+  of 500 Global and Northzone and profiled into the API Evangelist network. Bunch
+  operates a private, customer-facing product at app.bunch.capital and does not
+  publish a public API, developer portal, or SDKs at this time.
 url: https://raw.githubusercontent.com/api-evangelist/bunch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 - northzone
-x-tier: stub
+x-tier: profiled
 x-tier-reason: portfolio-lead
+x-enrichment-note: 'Original stub Website joinbunch.com is now a repurposed/squatted
+  domain (teacup-pig content); corrected to bunch.capital, verified as the 500 Global
+  / Northzone private-markets fintech. No public API/OpenAPI/SDK/docs surface found
+  as of 2026-07-18.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66768f27014cdc6878a27095/68f1ef65b00c7d1da8e88167_bunch.capital.webp
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Private Markets
+- Fund Administration
+- Fund Operations
+- Venture Capital
+- Private Equity
+- SPV
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +53,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://joinbunch.com
+  url: https://www.bunch.capital/
+- type: Blog
+  url: https://www.bunch.capital/blog
+- type: TermsOfService
+  url: https://www.bunch.capital/legal/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.bunch.capital/legal/privacy
+- type: Login
+  url: https://app.bunch.capital/
+- type: GitHubOrganization
+  url: https://github.com/bunchcapital
+- type: About
+  url: https://www.bunch.capital/company
+- type: LinkedIn
+  url: https://www.linkedin.com/company/bunchcapital/
+- type: DomainSecurity
+  url: security/bunch-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
