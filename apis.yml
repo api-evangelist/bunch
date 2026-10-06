@@ -46,7 +46,7 @@ accessModel:
 image: https://cdn.prod.website-files.com/66768f27014cdc6878a27095/68f1ef65b00c7d1da8e88167_bunch.capital.webp
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Fintech
@@ -63,6 +63,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.bunch.capital/blog-posts/rss.xml
+  type: BlogRSS
 - type: Website
   url: https://www.bunch.capital/
 - type: Blog
